@@ -1,0 +1,59 @@
+{
+	"name": "EULA-license",
+	"version": "1.0.0",
+	"description": "Generate a EULA license for your project",
+	"license": "MIT",
+	"repository": "robertjgabriel/EULA-license",
+	"author": {
+		"name": "Robert James Gabriel",
+		"email": "sindresorhus@gmail.com",
+		"url": "robertgabriel.ninja"
+	},
+	"bin": {
+		"conduct": "cli.js"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js",
+		"vendor"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"code",
+		"conduct",
+		"eula",
+		"contributing",
+		"contributor",
+		"covenant",
+		"friendly",
+		"inclusive",
+		"open",
+		"source",
+		"open-source",
+		"oss",
+		"generate",
+		"scaffold",
+		"create"
+	],
+	"dependencies": {
+		"chalk": "^2.4.1",
+		"conf": "^2.0.0",
+		"execa": "^0.10.0",
+		"get-emails": "^2.0.0",
+		"globby": "^8.0.1",
+		"inquirer": "^6.0.0",
+		"log-symbols": "^2.2.0",
+		"meow": "^5.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"tempy": "^0.2.1",
+		"xo": "*"
+	}
+}
